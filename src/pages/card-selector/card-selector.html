@@ -1,0 +1,33 @@
+<ion-content padding>
+  <div class="close" (click)="dismiss()">
+
+  </div>
+  <div class="bottom_container">
+    <div class="padding_container">
+      <h3>Choose color</h3>
+      <div class="color_card_container">
+        <div [class]="'color_card color_' + color + ' ' + (color_selected==color?'active':'')" *ngFor="let color of colors; let i = index;"  (click)="selectColor(color)">
+          <span *ngIf="color == 'd'">♠</span>
+          <span *ngIf="color == 'h'">♥</span>
+          <span *ngIf="color == 'c'">♦</span>
+          <span *ngIf="color == 's'">♣</span>
+        </div>
+      </div>
+      <h3>Choose card</h3>
+    </div>
+    <ion-scroll scrollX="true" class="card_container">
+      <div [class]="'card color_' + color_selected + ' ' + (card_selected==card?'active':'')" *ngFor="let card of cards; let i = index;" (click)="selectCard(card)">
+        <span class="card-color">
+          <span *ngIf="color_selected == 'd'">♠</span>
+          <span *ngIf="color_selected == 'h'">♥</span>
+          <span *ngIf="color_selected == 'c'">♦</span>
+          <span *ngIf="color_selected == 's'">♣</span>
+        </span>
+        <span class="card-value">{{card}}</span>
+      </div>
+    </ion-scroll>
+    <div class="padding_container">
+      <button ion-button full round large (click)="submit()">Select card</button>
+      </div>
+  </div>
+</ion-content>

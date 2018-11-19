@@ -1,0 +1,85 @@
+page-card-selector {
+  ion-content {
+
+    background: transparent !important;
+  }
+  .scroll-content {
+    background : rgba(0,0,0,0.2) !important;
+
+    .close {
+      position : absolute;
+      z-index : 2;
+      left : 0px;
+      right : 0px;
+      top : 0px;
+      bottom : 0px;
+    }
+
+    h2 {
+      color : #393939 !important;
+    }
+    .bottom_container {
+      position : absolute;
+      z-index : 3;
+      left : 0px;
+      right : 0px;
+      color: #fff;
+      background: #2E2E2E;
+      bottom: 0px !important;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      top: auto !important;
+      padding-top : 20px;
+      padding-bottom: 30px;
+      .padding_container {
+        padding : 0px 16px 0px 16px;
+      }
+      .color_card {
+        display:inline-block;
+        margin:0px 6px 0px 0px;
+        border-radius:5px;
+        // box-shadow: 0px 1px 1px #aaa;
+        width: calc((100% / 4) - 5px);
+        height:55px;
+        position:relative;
+        border:5px solid rgb(215, 216, 215);
+        font-size: 3rem;
+        text-align:center;
+        font-family : system;
+        opacity : 0.6 !important;
+        &.active {
+          opacity : 1 !important;
+        }
+      }
+
+      .color_card:nth-child(4),
+      .color_card:nth-child(8),
+      .color_card:nth-child(12)
+      {
+        margin-right : 0px !important;
+      }
+
+      .card {
+        border:5px solid rgb(215, 216, 215) !important;
+        opacity : 0.4 !important;
+        &.active {
+          opacity : 1 !important;
+        }
+      }
+
+      ion-scroll {
+        white-space: nowrap;
+        height: 90px;
+        margin-left : 15px;
+        .scroll-content {
+          padding : 0px !important;
+          background : transparent !important;
+        }
+      }
+
+      button[large] {
+        text-transform: none !important;
+      }
+    }
+  }
+}

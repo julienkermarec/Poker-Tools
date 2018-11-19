@@ -1,0 +1,20 @@
+<ion-content fullscreen>
+  <div class="topbar">
+    <div class="topbar_title">{{ 'INFO' | translate }}</div>
+    <div class="topbar_buttons">
+      <button class="right" ion-button clear icon-only (click)="goBack($event)">
+        <ion-icon name="close-circle"></ion-icon>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <img src="./assets/imgs/poker.png" width="40%" />
+    <div padding [innerHTML]="'INFORMATIONS' | translate">
+
+    </div>
+    <div padding [innerHTML]="'INFORMATIONS_CREDITS' | translate">
+
+    </div>
+  </div>
+  <a href="mailto:contact@julienkermarec.com" class="contact">{{ 'CONTACT_TEXT' | translate }}</a>
+</ion-content>

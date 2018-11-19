@@ -1,0 +1,62 @@
+page-info {
+  .scroll-content {
+    background: #ffffff;
+  }
+  .container {
+    text-align: center;
+    margin: 20px 0px;
+    position: relative;
+    display: block;
+    font-size: 120%;
+    color: #5e5f5f;
+  }
+  .topbar {
+    display :block;
+    position : relative;
+
+    .topbar_title {
+      font-size: 180%;
+      padding-top : 5px;
+      font-weight: bolder;
+      margin: 15px 10px 5px;
+      text-align: center;
+      color : #393939;
+    }
+
+    .topbar_buttons {
+      position :absolute;
+      top : 0px;
+      left : 0px;
+      right : 0px;
+      button {
+        color : #393939 !important;
+        font-weight: bolder;
+        position : absolute;
+        top : 0px;
+
+        ion-icon {
+          color : #393939 !important;
+
+        }
+      }
+      .left {
+        left : 10px;
+      }
+      .right {
+        right : 10px;
+      }
+    }
+  }
+
+
+  .contact {
+    position: relative;
+    float: left;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+}

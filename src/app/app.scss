@@ -14,3 +14,133 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+.scroll-content {
+  background : #f8f8f8;
+  color : #2E2E2E;
+
+    h2 {
+      text-transform : capitalize !important;
+    font-size: 2.5rem !important;
+    font-weight: bolder !important;
+    color: #2E2E2E !important;
+    }
+}
+
+ion-header {
+  &::after {
+    background :transparent !important;
+  }
+  .toolbar-background {
+    background : transparent;
+  }
+}
+
+.title_curve_text {
+    position: absolute;
+    top: 0;
+    width: 190px;
+    left: 0px;
+    padding-top: 16px;
+    padding-left: 16px;
+    background: transparent;
+    z-index: 2;
+    font-size: 3rem !important;
+    font-weight: bolder !important;
+    color: #2E2E2E !important;
+    text-shadow: 0px 0px 3px #f9f9f9;
+}
+ion-title .toolbar-title {
+  background: transparent;
+  z-index: 2;
+  font-size: 3rem !important;
+  font-weight: bolder !important;
+  color: #2E2E2E !important;
+  text-shadow: 0px 0px 3px #f9f9f9;
+}
+ion-buttons {
+  padding-right : 15px;
+  button {
+    color : #FFF !important
+  }
+}
+.title_curve_buttons {
+  position: absolute;
+  top: 3px;
+  right: 19px;
+  z-index: 3;
+  button {
+    color : #FFF;
+  }
+}
+.title_curve_background {
+  background: color($colors, 'primary');
+  color: #FFF;
+  position: absolute;
+  z-index: 2;
+  top: -26px;
+  right: -5px;
+  // height: 80px;
+  height: 100%;
+  width: 111px;
+  text-align: left;
+  border-bottom-left-radius: 25px;
+  transform: rotate(-18deg);
+  box-shadow: -25px -25px 0px 0px #373737;
+}
+
+.card{
+  display:inline-block;
+  margin:0px 6px 0px 0px;
+  border-radius:5px;
+  // box-shadow: 0px 1px 1px #aaa;
+  width:50px;
+  height:75px;
+  text-align: left;
+  position:relative;
+  border:5px solid #e0e0e0;
+}
+.card-color{
+  position:absolute;
+  width:100%;
+  font-size: 3rem;
+  text-align:center;
+  bottom:0;
+  margin-bottom:-5px;
+}
+
+.card.empty {
+  background: #cacaca;
+  .card-value {
+    color : #393939;
+  }
+}
+.card-value{
+  position:absolute;
+  width:100%;
+  top:10px;
+  text-align:center;
+  font-size:2rem;
+  margin-top:-10px;
+  background-color:rgba(255,255,255,0.1);
+  color:#fff;
+  font-weight: bold;
+}
+.pique, .color_d{
+  color:#fff;
+  background-color:#111;
+}
+
+.trefle, .color_s{
+  color:#fff;
+  background-color:#00ab31;
+}
+.coeur, .color_h{
+  color:#fff;
+  background-color:#d00;
+}
+.carreau, .color_c{
+  color:#fff;
+  background-color:#09f;
+}

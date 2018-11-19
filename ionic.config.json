@@ -1,5 +1,7 @@
 {
   "name": "PokerBrain",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

@@ -1,0 +1,23 @@
+{
+  "LANG":"fr",
+  "HELLO": "Bonjour",
+  "FRENCH": "Francais",
+  "ENGLISH": "Anglais",
+  "APP_TITLE": "Poker Tools",
+  "CANCEL":"Annuler",
+  "OK":"OK",
+  "CONFIRM":"Confirmer",
+  "YES":"Oui",
+  "NO":"Non",
+  "INFO":"Informations",
+  "INFORMATIONS":"Vous avez besoin de connaitre vos probabilités lors d'une main au poker ?<br /><br />Ajoutez vos cartes et celles de l'adversaire, le flop / turn / river si il y en a un, et nous vous affichons les statistiques !<br /><br />",
+  "INFORMATIONS_CREDITS":"Merci à Cook Pete pour les probabilités de main de poker <br /> <em> https://github.com/CookPete/poker-odds </ em> <br /> <br /> Icône de logo créée par Smashicons de <em> www.flaticon.com </ em> <br /> <br />",
+  "CONTACT_TEXT":"Une question ? Me contacter",
+  "POSSIBILITIES":"possibilités",
+  "FLOP":"Flop",
+  "TURN":"Turn",
+  "RIVER":"River",
+  "HANDS":"Mains",
+  "BOARD":"Board",
+  "B":""
+}

@@ -1,0 +1,10 @@
+<ion-list radio-group [(ngModel)]="checked_lang">
+  <ion-item>
+    <ion-label>{{ 'FRENCH' | translate }}</ion-label>
+    <ion-radio value="fr" (ionSelect)="close()"></ion-radio>
+  </ion-item>
+  <ion-item >
+    <ion-label>{{ 'ENGLISH' | translate }}</ion-label>
+    <ion-radio value="en" (ionSelect)="close()"></ion-radio>
+  </ion-item>
+</ion-list>
