@@ -27,7 +27,12 @@
     color: #2E2E2E !important;
     }
 }
+.modal-wrapper {
+  box-shadow: none !important;
 
+  top: auto !important;
+  bottom: 0px !important;
+}
 ion-header {
   &::after {
     background :transparent !important;

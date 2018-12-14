@@ -17,7 +17,7 @@ export class CardSelectorPage {
   color_selected = "d";
   card_selected = "A";
   colors =["d","h","c","s"];
-  cards =["A","K","J","T","9","8","7","6","5","4","3","2"];
+  cards =["A","K","Q","J","T","9","8","7","6","5","4","3","2"];
   constructor(
     public viewCtrl: ViewController,
     public navParams: NavParams) {

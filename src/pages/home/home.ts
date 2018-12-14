@@ -18,7 +18,7 @@ export class HomePage {
   results = [];
   hands_update = "counter";
   board_update = "flop";
-  showButtons = false;
+  showButtons = true;
 
   i18n: string[] = [];
   loading: any = null;
